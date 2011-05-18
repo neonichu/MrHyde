@@ -1,0 +1,302 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8A3F20D0138465C600CE36F5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A3F20CF138465C600CE36F5 /* UIKit.framework */; };
+		8A3F20D2138465C600CE36F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A3F20D1138465C600CE36F5 /* Foundation.framework */; };
+		8A3F20D4138465C600CE36F5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A3F20D3138465C600CE36F5 /* CoreGraphics.framework */; };
+		8A3F20DA138465C600CE36F5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8A3F20D8138465C600CE36F5 /* InfoPlist.strings */; };
+		8A3F20DD138465C600CE36F5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A3F20DC138465C600CE36F5 /* main.m */; };
+		8A3F20E0138465C600CE36F5 /* MrHydeAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A3F20DF138465C600CE36F5 /* MrHydeAppDelegate.m */; };
+		8A3F20E3138465C700CE36F5 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A3F20E1138465C600CE36F5 /* MainWindow.xib */; };
+		8A3F20E6138465C700CE36F5 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A3F20E5138465C700CE36F5 /* RootViewController.m */; };
+		8A3F20E9138465C700CE36F5 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A3F20E7138465C700CE36F5 /* RootViewController.xib */; };
+		8A3F20F1138466F400CE36F5 /* BlogPost.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A3F20F0138466F400CE36F5 /* BlogPost.m */; };
+		8A3F20F513846C4400CE36F5 /* BlogPostViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A3F20F313846C4400CE36F5 /* BlogPostViewController.m */; };
+		8A3F20F613846C4400CE36F5 /* BlogPostViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A3F20F413846C4400CE36F5 /* BlogPostViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8A3F20CB138465C600CE36F5 /* MrHyde.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MrHyde.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A3F20CF138465C600CE36F5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8A3F20D1138465C600CE36F5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8A3F20D3138465C600CE36F5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8A3F20D7138465C600CE36F5 /* MrHyde-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MrHyde-Info.plist"; sourceTree = "<group>"; };
+		8A3F20D9138465C600CE36F5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8A3F20DB138465C600CE36F5 /* MrHyde-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MrHyde-Prefix.pch"; sourceTree = "<group>"; };
+		8A3F20DC138465C600CE36F5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8A3F20DE138465C600CE36F5 /* MrHydeAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MrHydeAppDelegate.h; sourceTree = "<group>"; };
+		8A3F20DF138465C600CE36F5 /* MrHydeAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MrHydeAppDelegate.m; sourceTree = "<group>"; };
+		8A3F20E2138465C700CE36F5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		8A3F20E4138465C700CE36F5 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		8A3F20E5138465C700CE36F5 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		8A3F20E8138465C700CE36F5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
+		8A3F20EF138466F400CE36F5 /* BlogPost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlogPost.h; sourceTree = "<group>"; };
+		8A3F20F0138466F400CE36F5 /* BlogPost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlogPost.m; sourceTree = "<group>"; };
+		8A3F20F213846C4300CE36F5 /* BlogPostViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlogPostViewController.h; sourceTree = "<group>"; };
+		8A3F20F313846C4400CE36F5 /* BlogPostViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlogPostViewController.m; sourceTree = "<group>"; };
+		8A3F20F413846C4400CE36F5 /* BlogPostViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BlogPostViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8A3F20C8138465C600CE36F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A3F20D0138465C600CE36F5 /* UIKit.framework in Frameworks */,
+				8A3F20D2138465C600CE36F5 /* Foundation.framework in Frameworks */,
+				8A3F20D4138465C600CE36F5 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8A3F20C0138465C600CE36F5 = {
+			isa = PBXGroup;
+			children = (
+				8A3F20D5138465C600CE36F5 /* MrHyde */,
+				8A3F20CE138465C600CE36F5 /* Frameworks */,
+				8A3F20CC138465C600CE36F5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8A3F20CC138465C600CE36F5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8A3F20CB138465C600CE36F5 /* MrHyde.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8A3F20CE138465C600CE36F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8A3F20CF138465C600CE36F5 /* UIKit.framework */,
+				8A3F20D1138465C600CE36F5 /* Foundation.framework */,
+				8A3F20D3138465C600CE36F5 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8A3F20D5138465C600CE36F5 /* MrHyde */ = {
+			isa = PBXGroup;
+			children = (
+				8A3F20EF138466F400CE36F5 /* BlogPost.h */,
+				8A3F20F0138466F400CE36F5 /* BlogPost.m */,
+				8A3F20F213846C4300CE36F5 /* BlogPostViewController.h */,
+				8A3F20F313846C4400CE36F5 /* BlogPostViewController.m */,
+				8A3F20F413846C4400CE36F5 /* BlogPostViewController.xib */,
+				8A3F20E1138465C600CE36F5 /* MainWindow.xib */,
+				8A3F20DE138465C600CE36F5 /* MrHydeAppDelegate.h */,
+				8A3F20DF138465C600CE36F5 /* MrHydeAppDelegate.m */,
+				8A3F20E4138465C700CE36F5 /* RootViewController.h */,
+				8A3F20E5138465C700CE36F5 /* RootViewController.m */,
+				8A3F20E7138465C700CE36F5 /* RootViewController.xib */,
+				8A3F20D6138465C600CE36F5 /* Supporting Files */,
+			);
+			path = MrHyde;
+			sourceTree = "<group>";
+		};
+		8A3F20D6138465C600CE36F5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8A3F20D7138465C600CE36F5 /* MrHyde-Info.plist */,
+				8A3F20D8138465C600CE36F5 /* InfoPlist.strings */,
+				8A3F20DB138465C600CE36F5 /* MrHyde-Prefix.pch */,
+				8A3F20DC138465C600CE36F5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8A3F20CA138465C600CE36F5 /* MrHyde */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A3F20EC138465C700CE36F5 /* Build configuration list for PBXNativeTarget "MrHyde" */;
+			buildPhases = (
+				8A3F20C7138465C600CE36F5 /* Sources */,
+				8A3F20C8138465C600CE36F5 /* Frameworks */,
+				8A3F20C9138465C600CE36F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MrHyde;
+			productName = MrHyde;
+			productReference = 8A3F20CB138465C600CE36F5 /* MrHyde.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8A3F20C2138465C600CE36F5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Extessy AG";
+			};
+			buildConfigurationList = 8A3F20C5138465C600CE36F5 /* Build configuration list for PBXProject "MrHyde" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8A3F20C0138465C600CE36F5;
+			productRefGroup = 8A3F20CC138465C600CE36F5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8A3F20CA138465C600CE36F5 /* MrHyde */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8A3F20C9138465C600CE36F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A3F20DA138465C600CE36F5 /* InfoPlist.strings in Resources */,
+				8A3F20E3138465C700CE36F5 /* MainWindow.xib in Resources */,
+				8A3F20E9138465C700CE36F5 /* RootViewController.xib in Resources */,
+				8A3F20F613846C4400CE36F5 /* BlogPostViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8A3F20C7138465C600CE36F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A3F20DD138465C600CE36F5 /* main.m in Sources */,
+				8A3F20E0138465C600CE36F5 /* MrHydeAppDelegate.m in Sources */,
+				8A3F20E6138465C700CE36F5 /* RootViewController.m in Sources */,
+				8A3F20F1138466F400CE36F5 /* BlogPost.m in Sources */,
+				8A3F20F513846C4400CE36F5 /* BlogPostViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8A3F20D8138465C600CE36F5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A3F20D9138465C600CE36F5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8A3F20E1138465C600CE36F5 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A3F20E2138465C700CE36F5 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		8A3F20E7138465C700CE36F5 /* RootViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A3F20E8138465C700CE36F5 /* en */,
+			);
+			name = RootViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8A3F20EA138465C700CE36F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8A3F20EB138465C700CE36F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		8A3F20ED138465C700CE36F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MrHyde/MrHyde-Prefix.pch";
+				INFOPLIST_FILE = "MrHyde/MrHyde-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8A3F20EE138465C700CE36F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MrHyde/MrHyde-Prefix.pch";
+				INFOPLIST_FILE = "MrHyde/MrHyde-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8A3F20C5138465C600CE36F5 /* Build configuration list for PBXProject "MrHyde" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A3F20EA138465C700CE36F5 /* Debug */,
+				8A3F20EB138465C700CE36F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A3F20EC138465C700CE36F5 /* Build configuration list for PBXNativeTarget "MrHyde" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A3F20ED138465C700CE36F5 /* Debug */,
+				8A3F20EE138465C700CE36F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8A3F20C2138465C600CE36F5 /* Project object */;
+}
